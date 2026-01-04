@@ -1,21 +1,30 @@
-//
-//  ContentView.swift
-//  chapter-1-swift-ui
-//
-//  Created by mohnishsingh yadav on 04/01/26.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            LinearGradient(
+                colors: [
+                    .green,
+                    .red,
+                    .blue,
+                    .purple,
+                    .black,
+                    .cyan
+                ],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("SwiftUI Basics")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.white)
+            }
         }
-        .padding()
     }
 }
 
