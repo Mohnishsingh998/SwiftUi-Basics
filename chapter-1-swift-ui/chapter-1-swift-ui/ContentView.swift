@@ -18,9 +18,20 @@ struct ContentView: View {
         .indigo,
         .red
     ]
+    
     ///static varialble used for the mutalbe componnts or parts in the views
     @State private var screenTap : Bool = false;
-    @State private var offsetY : CGFloat = -1000.0
+    let rotateAngle : CGFloat = 360.0
+    var text : String {
+        screenTap
+        ?"Hello How are you have you done your work, if not do it at any cost!! 😩"
+        : "Swift UI bascis"
+    }
+//    / make the boolean fun to retrun based on the screenTap condition
+    
+    var font : Font {
+        screenTap ? .headline : .largeTitle
+    }
     var body: some View {
         ZStack {
             LinearGradient(
@@ -31,18 +42,23 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("SwiftUI Basics")
-                    .font(.largeTitle)
+                Text(text)
+                    .font(font)
                     .fontWeight(.semibold)
                     .foregroundStyle(.white)
-                    .offset( y : offsetY)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .rotation3DEffect(
+                        Angle(degrees: (screenTap ? 0 : rotateAngle)),
+                        axis: (x: 1, y: 1, z: 1)
+                    )
             }
         }
         .onTapGesture {
-            withAnimation(.easeInOut(duration: 1)){
-                screenTap.toggle()
-                offsetY = screenTap ? 0 : -1000.0
-            }
+            withAnimation(){
+                    screenTap.toggle()
+                }
+        
         }
     }
 }
