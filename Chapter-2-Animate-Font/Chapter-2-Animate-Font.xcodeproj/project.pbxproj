@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C4A800252F0AD82F00FE9841 /* chapter-1-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "chapter-1-swift-ui.app"; path = "/Users/mohnishsinghyadav/Desktop/Swift-ui-basics/chapter-1-swift-ui/build/Debug/chapter-1-swift-ui.app"; sourceTree = "<absolute>"; };
+		C4FAED1D2F0BFBE50053CDD8 /* Chapter-2-Animate-Font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter-2-Animate-Font.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C4A800272F0AD82F00FE9841 /* chapter-1-swift-ui */ = {
+		C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "chapter-1-swift-ui";
+			path = "Chapter-2-Animate-Font";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4A800222F0AD82F00FE9841 /* Frameworks */ = {
+		C4FAED1A2F0BFBE50053CDD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,74 +29,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4A8001C2F0AD82F00FE9841 = {
+		C4FAED142F0BFBE50053CDD8 = {
 			isa = PBXGroup;
 			children = (
-				C4A800272F0AD82F00FE9841 /* chapter-1-swift-ui */,
+				C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
+				C4FAED1E2F0BFBE50053CDD8 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C4FAED1E2F0BFBE50053CDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAED1D2F0BFBE50053CDD8 /* Chapter-2-Animate-Font.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4A800242F0AD82F00FE9841 /* chapter-1-swift-ui */ = {
+		C4FAED1C2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A800302F0AD83100FE9841 /* Build configuration list for PBXNativeTarget "chapter-1-swift-ui" */;
+			buildConfigurationList = C4FAED282F0BFBE70053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-2-Animate-Font" */;
 			buildPhases = (
-				C4A800212F0AD82F00FE9841 /* Sources */,
-				C4A800222F0AD82F00FE9841 /* Frameworks */,
-				C4A800232F0AD82F00FE9841 /* Resources */,
+				C4FAED192F0BFBE50053CDD8 /* Sources */,
+				C4FAED1A2F0BFBE50053CDD8 /* Frameworks */,
+				C4FAED1B2F0BFBE50053CDD8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C4A800272F0AD82F00FE9841 /* chapter-1-swift-ui */,
+				C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
 			);
-			name = "chapter-1-swift-ui";
+			name = "Chapter-2-Animate-Font";
 			packageProductDependencies = (
 			);
-			productName = "chapter-1-swift-ui";
-			productReference = C4A800252F0AD82F00FE9841 /* chapter-1-swift-ui.app */;
+			productName = "Chapter-2-Animate-Font";
+			productReference = C4FAED1D2F0BFBE50053CDD8 /* Chapter-2-Animate-Font.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4A8001D2F0AD82F00FE9841 /* Project object */ = {
+		C4FAED152F0BFBE50053CDD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					C4A800242F0AD82F00FE9841 = {
+					C4FAED1C2F0BFBE50053CDD8 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = C4A800202F0AD82F00FE9841 /* Build configuration list for PBXProject "chapter-1-swift-ui" */;
+			buildConfigurationList = C4FAED182F0BFBE50053CDD8 /* Build configuration list for PBXProject "Chapter-2-Animate-Font" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C4A8001C2F0AD82F00FE9841;
+			mainGroup = C4FAED142F0BFBE50053CDD8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C4A8001C2F0AD82F00FE9841;
+			productRefGroup = C4FAED1E2F0BFBE50053CDD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4A800242F0AD82F00FE9841 /* chapter-1-swift-ui */,
+				C4FAED1C2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4A800232F0AD82F00FE9841 /* Resources */ = {
+		C4FAED1B2F0BFBE50053CDD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4A800212F0AD82F00FE9841 /* Sources */ = {
+		C4FAED192F0BFBE50053CDD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C4A8002E2F0AD83100FE9841 /* Debug */ = {
+		C4FAED262F0BFBE70053CDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		C4A8002F2F0AD83100FE9841 /* Release */ = {
+		C4FAED272F0BFBE70053CDD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +241,7 @@
 			};
 			name = Release;
 		};
-		C4A800312F0AD83100FE9841 /* Debug */ = {
+		C4FAED292F0BFBE70053CDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -260,7 +269,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.chapter-1-swift-ui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-2-Animate-Font";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -276,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		C4A800322F0AD83100FE9841 /* Release */ = {
+		C4FAED2A2F0BFBE70053CDD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,7 +313,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.chapter-1-swift-ui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-2-Animate-Font";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -323,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4A800202F0AD82F00FE9841 /* Build configuration list for PBXProject "chapter-1-swift-ui" */ = {
+		C4FAED182F0BFBE50053CDD8 /* Build configuration list for PBXProject "Chapter-2-Animate-Font" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4A8002E2F0AD83100FE9841 /* Debug */,
-				C4A8002F2F0AD83100FE9841 /* Release */,
+				C4FAED262F0BFBE70053CDD8 /* Debug */,
+				C4FAED272F0BFBE70053CDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4A800302F0AD83100FE9841 /* Build configuration list for PBXNativeTarget "chapter-1-swift-ui" */ = {
+		C4FAED282F0BFBE70053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-2-Animate-Font" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4A800312F0AD83100FE9841 /* Debug */,
-				C4A800322F0AD83100FE9841 /* Release */,
+				C4FAED292F0BFBE70053CDD8 /* Debug */,
+				C4FAED2A2F0BFBE70053CDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C4A8001D2F0AD82F00FE9841 /* Project object */;
+	rootObject = C4FAED152F0BFBE50053CDD8 /* Project object */;
 }
