@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C4FAED1D2F0BFBE50053CDD8 /* Chapter-2-Animate-Font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Chapter-2-Animate-Font.app"; path = "/Users/mohnishsinghyadav/Desktop/Swift-ui-basics/Chapter-2-Animate-Font/build/Debug/Chapter-2-Animate-Font.app"; sourceTree = "<absolute>"; };
+		C4FAED352F0C04480053CDD8 /* Chapter-3-Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter-3-Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */ = {
+		C4FAED372F0C04480053CDD8 /* Chapter-3-Grid */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Chapter-2-Animate-Font";
+			path = "Chapter-3-Grid";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4FAED1A2F0BFBE50053CDD8 /* Frameworks */ = {
+		C4FAED322F0C04480053CDD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,74 +29,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4FAED142F0BFBE50053CDD8 = {
+		C4FAED2C2F0C04480053CDD8 = {
 			isa = PBXGroup;
 			children = (
-				C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
+				C4FAED372F0C04480053CDD8 /* Chapter-3-Grid */,
+				C4FAED362F0C04480053CDD8 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C4FAED362F0C04480053CDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAED352F0C04480053CDD8 /* Chapter-3-Grid.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4FAED1C2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */ = {
+		C4FAED342F0C04480053CDD8 /* Chapter-3-Grid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4FAED282F0BFBE70053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-2-Animate-Font" */;
+			buildConfigurationList = C4FAED402F0C044B0053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-3-Grid" */;
 			buildPhases = (
-				C4FAED192F0BFBE50053CDD8 /* Sources */,
-				C4FAED1A2F0BFBE50053CDD8 /* Frameworks */,
-				C4FAED1B2F0BFBE50053CDD8 /* Resources */,
+				C4FAED312F0C04480053CDD8 /* Sources */,
+				C4FAED322F0C04480053CDD8 /* Frameworks */,
+				C4FAED332F0C04480053CDD8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C4FAED1F2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
+				C4FAED372F0C04480053CDD8 /* Chapter-3-Grid */,
 			);
-			name = "Chapter-2-Animate-Font";
+			name = "Chapter-3-Grid";
 			packageProductDependencies = (
 			);
-			productName = "Chapter-2-Animate-Font";
-			productReference = C4FAED1D2F0BFBE50053CDD8 /* Chapter-2-Animate-Font.app */;
+			productName = "Chapter-3-Grid";
+			productReference = C4FAED352F0C04480053CDD8 /* Chapter-3-Grid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4FAED152F0BFBE50053CDD8 /* Project object */ = {
+		C4FAED2D2F0C04480053CDD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					C4FAED1C2F0BFBE50053CDD8 = {
+					C4FAED342F0C04480053CDD8 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = C4FAED182F0BFBE50053CDD8 /* Build configuration list for PBXProject "Chapter-2-Animate-Font" */;
+			buildConfigurationList = C4FAED302F0C04480053CDD8 /* Build configuration list for PBXProject "Chapter-3-Grid" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C4FAED142F0BFBE50053CDD8;
+			mainGroup = C4FAED2C2F0C04480053CDD8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C4FAED142F0BFBE50053CDD8;
+			productRefGroup = C4FAED362F0C04480053CDD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4FAED1C2F0BFBE50053CDD8 /* Chapter-2-Animate-Font */,
+				C4FAED342F0C04480053CDD8 /* Chapter-3-Grid */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4FAED1B2F0BFBE50053CDD8 /* Resources */ = {
+		C4FAED332F0C04480053CDD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4FAED192F0BFBE50053CDD8 /* Sources */ = {
+		C4FAED312F0C04480053CDD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C4FAED262F0BFBE70053CDD8 /* Debug */ = {
+		C4FAED3E2F0C044B0053CDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		C4FAED272F0BFBE70053CDD8 /* Release */ = {
+		C4FAED3F2F0C044B0053CDD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +241,7 @@
 			};
 			name = Release;
 		};
-		C4FAED292F0BFBE70053CDD8 /* Debug */ = {
+		C4FAED412F0C044B0053CDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -260,7 +269,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-2-Animate-Font";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-3-Grid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -276,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		C4FAED2A2F0BFBE70053CDD8 /* Release */ = {
+		C4FAED422F0C044B0053CDD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,7 +313,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-2-Animate-Font";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohinsh.Chapter-3-Grid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -323,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4FAED182F0BFBE50053CDD8 /* Build configuration list for PBXProject "Chapter-2-Animate-Font" */ = {
+		C4FAED302F0C04480053CDD8 /* Build configuration list for PBXProject "Chapter-3-Grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4FAED262F0BFBE70053CDD8 /* Debug */,
-				C4FAED272F0BFBE70053CDD8 /* Release */,
+				C4FAED3E2F0C044B0053CDD8 /* Debug */,
+				C4FAED3F2F0C044B0053CDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4FAED282F0BFBE70053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-2-Animate-Font" */ = {
+		C4FAED402F0C044B0053CDD8 /* Build configuration list for PBXNativeTarget "Chapter-3-Grid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4FAED292F0BFBE70053CDD8 /* Debug */,
-				C4FAED2A2F0BFBE70053CDD8 /* Release */,
+				C4FAED412F0C044B0053CDD8 /* Debug */,
+				C4FAED422F0C044B0053CDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C4FAED152F0BFBE50053CDD8 /* Project object */;
+	rootObject = C4FAED2D2F0C04480053CDD8 /* Project object */;
 }
