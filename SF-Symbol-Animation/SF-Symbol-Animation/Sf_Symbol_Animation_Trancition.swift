@@ -8,80 +8,91 @@
 import SwiftUI
 
 struct Sf_Symbol_Animation_Trancition: View {
-    @State private var Clicked = false;
-    @State private var Paused = false;
-    @State private var layeranimate = false;
-    @State private var animateRunig = false;
-    @State private var RunCount = 1;
+    @State private var email: String = ""
+    @State private var password: String = ""
+
     var body: some View {
-        VStack{
-            HStack{
-                Image(systemName: Clicked ? "globe" : "person")
-                    .imageScale(.large)
-                    .symbolEffectsRemoved(Paused)
-                    .symbolEffect(.bounce, value: Clicked)
-                    .contentTransition(
-                        .symbolEffect(.replace.byLayer.downUp)
+        ZStack {
+            // Background image (ensure an asset named "puppy" exists)
+            Image("puppy")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+                .overlay(Color.black.opacity(0.3))
+                .accessibilityHidden(true)
+
+            VStack(spacing: 20) {
+                Image(systemName: "pawprint.fill")
+                    .font(.system(size: 56, weight: .bold))
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 6)
+
+                Text("Welcome")
+                    .font(.largeTitle.bold())
+                    .foregroundStyle(.white)
+
+                VStack(spacing: 12) {
+                    HStack(spacing: 10) {
+                        Image(systemName: "envelope.fill")
+                            .foregroundStyle(.white.opacity(0.9))
+                        TextField("Email", text: $email)
+                            .keyboardType(.emailAddress)
+                            .textContentType(.username)
+                            .textInputAutocapitalization(.never)
+                            .autocorrectionDisabled()
+                    }
+                    .padding(12)
+                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12, style: .continuous)
+                            .stroke(.white.opacity(0.25), lineWidth: 1)
                     )
-                
-                Image(systemName: Clicked ? "globe" : "person")
-                    .imageScale(.large)
-                    .symbolEffectsRemoved(Paused)
-                    .symbolEffect(.bounce, value: Clicked)
-                    .contentTransition(
-                        .symbolEffect(.replace.wholeSymbol.upUp)
+
+                    HStack(spacing: 10) {
+                        Image(systemName: "lock.fill")
+                            .foregroundStyle(.white.opacity(0.9))
+                        SecureField("Password", text: $password)
+                            .textContentType(.password)
+                    }
+                    .padding(12)
+                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12, style: .continuous)
+                            .stroke(.white.opacity(0.25), lineWidth: 1)
                     )
-            }
-            .padding()
-            
-//            button
-            
-            HStack {
-                Button(action: {
-                    Clicked.toggle()
-                }, label: {
-                    Text("Click Me!")
-                        .font(.headline)
-                        .foregroundStyle(Clicked ? .orange : .gray)
-                        .padding()
+                }
+
+                Button(action: signIn) {
+                    Text("Sign In")
+                        .fontWeight(.semibold)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
                         .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.black)
+                            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                .fill(.white)
                         )
-                })
-                
-                Button(action: {
-                    Paused.toggle()
-                }, label: {
-                    Text("Puase Me!")
-                        .font(.headline)
-                        .foregroundStyle(Paused ? .orange : .gray)
-                        .padding()
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.black)
-                        )
-                })
+                        .foregroundStyle(.black)
+                }
+                .disabled(email.isEmpty || password.isEmpty)
+                .opacity((email.isEmpty || password.isEmpty) ? 0.6 : 1)
             }
-            
-            HStack{
-                Button(action: {
-                    RunCount += 1
-                }, label: {
-                    Label("Click Me To Run  \(RunCount)", systemImage: "figure.run.square.stack")
-                        .imageScale(.large)
-                })
-                .symbolEffect(
-                    layeranimate ? .variableColor.cumulative : .variableColor.iterative,
-                    options: .repeat(RunCount),
-                    value: RunCount
-                )
-                .font(.largeTitle)
-                .padding()
-            }
-            .padding()
-        
+            .padding(24)
+            .background(
+                RoundedRectangle(cornerRadius: 24, style: .continuous)
+                    .fill(.ultraThinMaterial)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 24, style: .continuous)
+                            .stroke(.white.opacity(0.25), lineWidth: 1)
+                    )
+            )
+            .padding(.horizontal, 24)
+            .shadow(color: .black.opacity(0.35), radius: 20, x: 0, y: 12)
         }
+    }
+
+    private func signIn() {
+        // Minimal working action; plug in your logic here
+        print("Signing in with", email, password)
     }
 }
 
