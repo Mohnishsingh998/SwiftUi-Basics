@@ -24,6 +24,13 @@ struct ContentView: View {
                     ){
                         Coutom_view()
                     }
+                    
+                    NavigationLink("Flip"){
+                        FlipTransitionView()
+                    }
+                    NavigationLink("Scale and Blur"){
+                        ScaleandBlurTransction()
+                    }
                 }
             }
             .navigationTitle("Transition")
